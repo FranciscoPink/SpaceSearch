@@ -2,7 +2,10 @@
 This application will be a mobile website to display images found in the NASA images database.
 
 ## API
-I will be using NASA as my API.
+I will be using the public NASA API.
+
+https://api.nasa.gov
+
 ```javascript
 {
     "date": "2021-08-02",
@@ -18,13 +21,13 @@ I will be using NASA as my API.
 ![Wireframe](wireframe.png)
 
 ## MVP 
-- Fetch data from NASA's database and display search results from user.
+- Fetch image and title from NASA's database and display search results.
 - I will use Flexbox to style the website and organize content.
 - Application will be deployed on GitHub Pages.
 
 
 ## Post-MVP
-- Add function to save imaages in browser session
+- Add function to save images in browser session
 - Create a function that changes background of page to desired image from NASA database.
 
 
