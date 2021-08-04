@@ -1,19 +1,39 @@
-let search = document.querySelector("#blank")
-let URL = `https://api.nasa.gov/planetary/apod?api_key=jG7q6os3K4mdDnNzIEuqkvsyS9elfcw4TYBYbko5`
 
+let search = document.querySelector('#search')
+let results = document.querySelector('.results')
 
 let getData = async () => {
+
   try {
-    const data = await axios.get(URL)
+
+    let q = document.querySelector("#blank").value
+    let data = await axios.get(`https://images-api.nasa.gov/search?q=${q}
+    // /?api_key=jG7q6os3K4mdDnNzIEuqkvsyS9elfcw4TYBYbko5`)
     console.log(data)
-    //   data.data.results.forEach((person) => {
-    //     const nameEl = document.createElement('h1')
-    //     nameEl.textContent = `${person.name.first} ${person.name.last}`
-    //     document.querySelector('.example').append(nameEl)
-    //   })
-  } catch (error) {
-    console.error('error')
+    // let searchResult = 
+
+    searchResult.forEach((result) => {
+      let resultDiv = document.createElement('div')
+      results.append(cssDiv)
+      resultDiv.classList.add('searchResult')
+
+      let image = document.createElement('img')
+      image.src = '';
+      resultDiv.appendChild(image)
+
+      let title = document.createElement('h3')
+      title.textContent = '';
+      resultDiv.appendChild(title)
+
+    })
+
   }
+
+
+  catch (error) {
+    console.log('error')
+  }
+
 }
 
-document.querySelector('#search').addEventListener('click', getData)
+search.addEventListener('click', getData)
