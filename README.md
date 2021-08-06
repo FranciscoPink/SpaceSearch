@@ -38,7 +38,7 @@ https://api.nasa.gov
 ## Timeframes
 | **Component**             |Estimated Time| Time Invested | Actual Time |
 | :------------------------ | :-- | :-- | :-- |
-| Create HTML frame         |  3 hrs| 1hr| 1 hr |
+| Create  HTML frame         |  3 hrs| 1hr| 1 hr |
 | Setup API                 |4 hrs |10 hrs | 10 hrs|
 | Setup media query        |  3 hrs| 1 hr| 1hr|
 | CSS styling search results | 5hrs| 4 hrs| 4 hrs |
