@@ -16,7 +16,6 @@ let getData = async () => {
 search.addEventListener("click", getData)
 
 function displayData(dataArray) {
-  console.log(dataArray);
   dataArray.forEach((result) => {
     let nasaData = `
     <div class="searchResult">

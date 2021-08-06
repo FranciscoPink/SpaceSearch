@@ -1,5 +1,5 @@
 # Space Search
-This application will be a mobile website to display images found in the NASA images database.
+This application will display images the user searches for from the NASA images database on mobile and desktop devices.
 
 ## API
 I will be using the public NASA API.
@@ -21,9 +21,10 @@ https://api.nasa.gov
 ![Wireframe](wireframe.png)
 
 ## MVP 
-- Fetch image and title from NASA's database and display search results.
-- I will use Flexbox to style the website and organize content.
-- Application will be deployed on GitHub Pages.
+- Fetch image and title from NASA's API and display search results.
+- Set up media query for smaller devices.
+- Use Flexbox to style the website and organize content.
+- Deploy on GitHub Pages.
 
 
 ## Post-MVP
@@ -35,12 +36,12 @@ https://api.nasa.gov
 ![PMatrix](pmatrix.png)
 
 ## Timeframes
-| **Component**             |Estimated Time|
-| :------------------------ | :-- |
-| Create HTML frame         |  3 hrs|
-| Setup API                 |4 hrs |
-| Setup media query        |  3 hrs|
-| CSS styling search results | 5hrs|
-| Setting up cross-device support |2 hrs |
-| Deploy                    | 3hrs |
-|Total:  |20hrs|
+| **Component**             |Estimated Time| Time Invested | Actual Time |
+| :------------------------ | :-- | :-- | :-- |
+| Create HTML frame         |  3 hrs| 1hr| 1 hr |
+| Setup API                 |4 hrs |10 hrs | 10 hrs|
+| Setup media query        |  3 hrs| 1 hr| 1hr|
+| CSS styling search results | 5hrs| 4 hrs| 4 hrs |
+| Setting up cross-device support |2 hrs |3 hrs | 3hrs|
+| Deploy                    | 3hrs |1 hr | 1hr|
+|Total:  |20hrs| 20 hrs| 20 hrs|
