@@ -60,3 +60,5 @@ function displayData(dataArray) {
   });
 }
 ```
+## Deployment
+https://franciscopink.github.io/SpaceSearch/
