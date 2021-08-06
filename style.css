@@ -21,7 +21,7 @@ body {
 
 /* Display search results */
 
-.results {
+.results { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
