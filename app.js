@@ -8,8 +8,8 @@ let getData = async () => {
     let response = await axios.get(
       `https://images-api.nasa.gov/search?q=${q.value}`);
     displayData(response.data.collection.items);
-  } catch (error) {
-    console.log("error");
+  } catch (err) {
+    console.log(err);
   }
 };
 
@@ -20,8 +20,8 @@ function displayData(dataArray) {
   dataArray.forEach((result) => {
     let nasaData = `
     <div class="searchResult">
-      <img src="${result.links[0].href}" />
-      <h1>${result.data[0].title}</h1>
+      <img class="resultImg" src="${result.links[0].href}" />
+      <h4>${result.data[0].title}</h4>
     </div>
     `;
     results.insertAdjacentHTML("beforeend", nasaData);
