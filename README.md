@@ -45,3 +45,18 @@ https://api.nasa.gov
 | Setting up cross-device support |2 hrs |3 hrs | 3hrs|
 | Deploy                    | 3hrs |1 hr | 1hr|
 |Total:  |20hrs| 20 hrs| 20 hrs|
+
+## Code snippet
+```javasciptt
+function displayData(dataArray) {
+  dataArray.forEach((result) => {
+    let nasaData = `
+    <div class="searchResult">
+      <img class="resultImg" src="${result.links[0].href}" />
+      <h4>${result.data[0].title}</h4>
+    </div>
+    `;
+    results.insertAdjacentHTML("beforeend", nasaData);
+  });
+}
+```
