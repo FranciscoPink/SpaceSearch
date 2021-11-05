@@ -52,8 +52,6 @@ h4 {
   color: white
 }
 
-/* Smaller devices */
-
 @media (max-device-width: 400px) {
 
 #logo {
@@ -63,6 +61,5 @@ h4 {
 .searchResult {
   margin: 10px;
   max-width: 200px;
-  /* background-color:darkgray;  */
 }
 }
