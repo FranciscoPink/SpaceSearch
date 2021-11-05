@@ -1,4 +1,7 @@
 # Space Search
+
+🚀 https://space-search.netlify.app/
+
 This application will display images the user searches for from the NASA images database on mobile and desktop devices.
 
 ## API
@@ -24,27 +27,11 @@ https://api.nasa.gov
 - Fetch image and title from NASA's API and display search results.
 - Set up media query for smaller devices.
 - Use Flexbox to style the website and organize content.
-- Deploy on GitHub Pages.
-
-
-## Post-MVP
-- Add function to save images in browser session
-- Create a function that changes background of page to desired image from NASA database.
+- Deploy on Netlify
 
 
 ## Priority Matrix
 ![PMatrix](https://lh3.googleusercontent.com/Ep6hVkgxT2-0uIfYOgRSd3C7ENmi3bR5p_5goWQMa3CdIgTU7hmKvLVDUsPV8N5t_jvHRlra0uvi-_AJdTHux4_hjTLHz71Jd1QfiRkI1OjmsWRbXksmSnGyapjFvU8QX5gSiL-LMmeGJm_lRIUamP7qcHLC1kFJUDNA4loLJ5w3OFuc2GlA3Qo70vxTuMdBiZVbz1EMxkzmG4xV7hW0a_w-OS76u-iQsjchamOVf4C26SfoH8aTsIKHmVvku4HPJPtBPpEDfnnfrWg2xaGUgixHhC1iccO76nwPysgEY8HGDywGdKr2rMzWsb5Za1x9rds0P5A_qZzUCx1lHKvk7fDKKhMoY0zLrBT1wlkfMp3qqquSBTCYpK-pomxgrVjphUEn7YVf0pbVadDgI18G4V9uu94goH7MIa_aWoM4xuqLO6-mqjpIc2dNeJ_Sb8njypLhPs0e-x6PDb7R6kKNuksn_V1qzGkySxZ1rzbCp-CEdRACgS5-CU-nX7uqukSwA-bL6_YCmPJwFBZmLrtFfihsdnNXwUAAUcQxN7YbPgwtkbcYhAUUFQF_bGSP2_uMc11bLpzvj3kfH0Vk2AiZXZP5R3mO7C94bNrVXsg9JpvPUB7cEos55dDQrVYi-I73g9gxbO3ylLdnY6vnsPxHd1hLOGms1qNGnAFBCYRuAtNG_uIHucLqrtpGHGgnslr3_axF4TSl9OlT6Yrrxy6v1w=w1588-h1482-no?authuser=0)
-
-## Timeframes
-| **Component**             |Estimated Time| Time Invested | Actual Time |
-| :------------------------ | :-- | :-- | :-- |
-| Create  HTML frame         |  3 hrs| 1hr| 1 hr |
-| Setup API                 |4 hrs |10 hrs | 10 hrs|
-| Setup media query        |  3 hrs| 1 hr| 1hr|
-| CSS styling search results | 5hrs| 4 hrs| 4 hrs |
-| Setting up cross-device support |2 hrs |3 hrs | 3hrs|
-| Deploy                    | 3hrs |1 hr | 1hr|
-|Total:  |20hrs| 20 hrs| 20 hrs|
 
 ## Code snippet
 ```javasciptt
@@ -60,5 +47,3 @@ function displayData(dataArray) {
   });
 }
 ```
-## Deployment
-https://franciscopink.github.io/SpaceSearch/
