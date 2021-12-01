@@ -30,7 +30,7 @@ body {
 }
 .searchResult {
   margin: 10px;
-  max-width: 400px;
+  width: 400px;
   background-color:darkgray; 
 }
 .resultImg {
