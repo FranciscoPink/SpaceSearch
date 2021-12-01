@@ -7,6 +7,7 @@ let getData = async () => {
   try {
     let response = await axios.get(
       `https://images-api.nasa.gov/search?q=${q.value}`);
+    console.log(response)
     displayData(response.data.collection.items);
   } catch (err) {
     console.log(err);
